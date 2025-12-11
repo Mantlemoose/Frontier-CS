@@ -1,0 +1,24 @@
+{
+  "problem_name": "flash_attn",
+  "description": "Triton kernel optimization problem for high-performance Flash Attention computation",
+  "requirements": {
+    "cuda_backend": true,
+    "gpu_required": true,
+    "triton_version": ">=2.1.0",
+    "torch_version": ">=2.0.0"
+  },
+  "evaluation": {
+    "timeout_seconds": 300,
+    "memory_limit_mb": 8192,
+    "gpu_memory_limit_mb": 4096
+  },
+  "metadata": {
+    "Z": 1,
+    "H": 8,
+    "Dq": 64,
+    "Dv": 64,
+    "M_list": [512, 1024, 2048],
+    "causal": true
+  }
+}
+

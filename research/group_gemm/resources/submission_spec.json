@@ -1,0 +1,23 @@
+{
+  "problem_name": "group_gemm",
+  "description": "Triton kernel optimization problem for high-performance batched matrix multiplication (BMM)",
+  "requirements": {
+    "cuda_backend": true,
+    "gpu_required": true,
+    "triton_version": ">=2.1.0",
+    "torch_version": ">=2.0.0"
+  },
+  "evaluation": {
+    "timeout_seconds": 300,
+    "memory_limit_mb": 8192,
+    "gpu_memory_limit_mb": 4096
+  },
+  "metadata": {
+    "B_list": [64, 256, 1024],
+    "M": 64,
+    "N": 64,
+    "K": 64
+  }
+}
+
+

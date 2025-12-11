@@ -1,0 +1,8 @@
+{
+  "param_limit": 1000000.0,
+  "baseline_accuracy": 0.8,
+  "scoring": {
+    "max_score": 100.0,
+    "min_score": 0.0
+  }
+}

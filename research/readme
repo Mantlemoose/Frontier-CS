@@ -1,0 +1,17 @@
+Each problem is a folder.
+
+It will have set_up_env.sh, evaluate.sh, and download_datasets.sh
+
+download_datasets.sh is called before evaluation to download/extract datasets to a local cache directory
+
+set_up_env.sh is called in the beginning to create the env for the problem. It uses pre-downloaded datasets from the mounted cache if available.
+
+evaluate.sh is called at the end. It assumes that there is a solution_env in ../execution_env and a solution.py in solution_env
+
+evaluate.sh returns a number as the score.
+
+Each problem need to specify the following: 
+1. what the env looks like.
+2. The input and output format for solution.py
+3. How datasets are downloaded and used (via download_datasets.sh and set_up_env.sh)
+

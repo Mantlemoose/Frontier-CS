@@ -1,0 +1,57 @@
+# Problems
+
+- Operating Systems (8)
+    - cant_be_late/high_availability_loose_deadline
+    - cant_be_late/high_availability_tight_deadline
+    - cant_be_late/low_availability_loose_deadline
+    - cant_be_late/low_availability_tight_deadline
+    - cant_be_late_multi/high_availability_loose_deadline
+    - cant_be_late_multi/high_availability_tight_deadline
+    - cant_be_late_multi/low_availability_loose_deadline
+    - cant_be_late_multi/low_availability_tight_deadline
+- HPC / GPU Systems (19)
+    - cross_entropy
+    - decoding_attn
+    - flash_attn
+    - fused_linear_ce
+    - fused_linear_jsd
+    - gdpa_attention
+    - gemm_optimization/annoying
+    - gemm_optimization/k_skewed
+    - gemm_optimization/near_tile
+    - gemm_optimization/rectangles
+    - gemm_optimization/squares
+    - gemm_optimization/transformerish
+    - group_gemm
+    - mamba2_scan
+    - mixed_gemm
+    - ragged_attention
+    - vector_addition/2_20
+    - vector_addition/2_24
+    - vector_addition/2_28
+- Artificial Intelligence (6)
+    - cloudcast
+    - imagenet_pareto/1m
+    - imagenet_pareto/200k
+    - imagenet_pareto/2_5m
+    - imagenet_pareto/500k
+    - imagenet_pareto/5m
+- Databases (7)
+    - llm_sql/large
+    - llm_sql/small
+    - vdb_pareto/balanced
+    - vdb_pareto/high_recall
+    - vdb_pareto/low_latency
+    - vdb_pareto/recall80_latency
+    - vdb_pareto/recall95_latency
+- Programming Languages (5)
+    - symbolic_regression/mccormick
+    - symbolic_regression/mixed_polyexp_4d
+    - symbolic_regression/peaks
+    - symbolic_regression/ripple
+    - symbolic_regression/sincos
+- Security (4)
+    - poc_generation/heap_buffer_overflow
+    - poc_generation/heap_use_after_free
+    - poc_generation/stack_buffer_overflow
+    - poc_generation/uninitialized_value

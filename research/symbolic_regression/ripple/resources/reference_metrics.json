@@ -1,0 +1,8 @@
+{
+  "dataset_ripple.csv": {
+    "m_base": 1.504292994114016,
+    "m_ref": 2.6872290937155053e-18,
+    "C_ref": 11,
+    "reference_expression": "x1*sin(10*x1*x1 + x2*x2)"
+  }
+}

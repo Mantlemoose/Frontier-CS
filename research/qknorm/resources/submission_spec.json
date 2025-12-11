@@ -1,0 +1,15 @@
+{
+  "problem_name": "qknorm_optimization",
+  "description": "Optimization problem for high-performance QKNorm using flashinfer",
+  "requirements": {
+    "cuda_backend": true,
+    "gpu_required": true,
+    "torch_version": ">=2.0.0",
+    "flashinfer_version": "==0.5.0"
+  },
+  "evaluation": {
+    "timeout_seconds": 300,
+    "memory_limit_mb": 8192,
+    "gpu_memory_limit_mb": 4096
+  }
+}

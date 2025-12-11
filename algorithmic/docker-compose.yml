@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  lightcpverifier:
+    build: .
+    container_name: Competitive-Programming
+    privileged: true              # Required by go-judge
+    shm_size: "4g"                # Recommended >= 2G
+    environment:
+      PORT: "8081"                # Orchestrator API port
+      GJ_ADDR: "http://127.0.0.1:5050"
+      JUDGE_WORKERS: "8"          # Orchestrator concurrency
+      GJ_PARALLELISM: "8"         # go-judge concurrency
+    volumes:
+      - ./problems:/app/problems
+      - ./submissions:/app/submissions
+      - ./data:/app/data          # For results/cache
+    ports:
+      - "8081:8081"
+    restart: unless-stopped

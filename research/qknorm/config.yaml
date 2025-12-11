@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "uv_project": "resources"
+  },
+  "datasets": [],
+  "runtime": {
+    "resources": {
+      "accelerators": "L4:1"
+    },
+    "environment": "CUDA 12.2, Python 3.11, PyTorch 2.0+, flashinfer 0.5.0, Triton 3.0+"
+  },
+  "tag": "hpc"
+}

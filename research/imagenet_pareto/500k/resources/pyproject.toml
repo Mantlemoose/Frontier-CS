@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "imagenet-pareto"
+version = "0.1.0"
+description = "Synthetic ImageNet-like benchmarking harness with Pareto scoring."
+authors = ["Frontier-CS"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+torch = {version = ">=2.2,<2.4", source = "pypi"}
+numpy = ">=1.24"
+torchvision = {version = ">=0.17,<0.19", optional = true}
+tqdm = ">=4.64"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

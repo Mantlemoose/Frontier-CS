@@ -1,0 +1,4 @@
+model,coverage_rate,top_naive,top_overlap,avg_score5_overlap,problems,wins_vs_gemini2.5pro,losses_vs_gemini2.5pro,ties_vs_gemini2.5pro,wins_vs_gpt5,losses_vs_gpt5,ties_vs_gpt5,wins_vs_grok4fastreasoning,losses_vs_grok4fastreasoning,ties_vs_grok4fastreasoning
+gemini2.5pro,0.000000,0,0,0.000000,49,-,-,-,0,0,0,0,0,0
+gpt5,0.000000,0,0,0.000000,49,0,0,0,-,-,-,0,0,0
+grok4fastreasoning,0.000000,49,0,0.000000,49,0,0,0,0,0,0,-,-,-
